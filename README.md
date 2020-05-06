@@ -1,3 +1,6 @@
+This search app was created using react which enables the users to search for a particular robot using its name.
+You can view the deployment online by following the link given in description or for offline use follow the instructions given for create react app...
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
