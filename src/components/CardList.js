@@ -5,14 +5,14 @@ const CardList = ({robots}) => {
 	return (
 		<div>
 			{
-				robots.map( (robo, i) => {
+				robots.map( (robo) => {
 					return (
 						<Card 
-							key={i} 
-							id={robots[i].id} 
-							name={robots[i].name} 
-							email={robots[i].email}
-							/>
+							key={robo.id} 
+							id={robo.id} 
+							name={robo.name} 
+							email={robo.email}
+						/>
 					);
 				})
 			}
